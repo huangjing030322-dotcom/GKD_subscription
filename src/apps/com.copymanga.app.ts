@@ -164,6 +164,12 @@ export default defineGkdApp({
             'https://i.gkd.li/i/12909005',
           ],
         },
+        {
+          key: 3,
+          fastQuery: true,
+          matches:
+            'ImageView[id="com.copymanga.app:id/ad_close"][desc="关闭"][clickable=true]',
+        },
       ],
     },
     {
