@@ -27,21 +27,14 @@ https://raw.githubusercontent.com/huangjing030322-dotcom/GKD_subscription/main/d
 
 原作者订阅与本订阅包含大量相同规则，建议按需选择启用，避免重复执行。
 
-## 本分支补充
-
-- 拷贝漫画（`com.copymanga.app`）：在「局部广告-卡片广告」组新增关闭广告按钮规则。
-- 匹配选择器：`ImageView[id="com.copymanga.app:id/ad_close"][desc="关闭"][clickable=true]`。
-- 新规则已通过静态校验，实际效果以设备和应用版本为准。
 
 ## 维护与反馈
 
-- [反馈问题](https://github.com/huangjing030322-dotcom/GKD_subscription/issues)时请提供应用版本、问题描述及 GKD 快照。
-- 规则源码位于 `src/apps/`，修改后运行 `pnpm run check`、`pnpm run build` 生成订阅产物。
-- [贡献指南](./CONTRIBUTING.md) · [选择器参考](./Selectors.md)
-- 发布工作流支持手动运行，并在北京时间每日 03:00 检查规则变更后构建更新。Fork 的定时工作流需在 GitHub Actions 中启用后才会运行。
+- 几乎不添加常用内容的维护，只添加个人习惯使用的特色项目，由Codex大人负责维护
+- 直接订阅原作者链接即可
 
 ## 来源与声明
 
 感谢 [AIsouler](https://github.com/AIsouler) 与原项目贡献者，以及 [gkd-kit/subscription](https://github.com/gkd-kit/subscription)。本仓库为个人维护分支，与原作者的维护状态及发布渠道相互独立。
 
-沿用原项目声明：禁止在国内平台传播；仅供本人学习使用；精力有限，随缘更新。
+沿用原项目声明：禁止在国内平台传播；仅供本人学习使用
